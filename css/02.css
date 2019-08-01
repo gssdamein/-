@@ -1,0 +1,491 @@
+			#diergegundongtu1{
+			margin-top: 40px;
+			}
+			#diergegundongtu1>div{
+				position: relative;
+				width: 1358px;
+				height: 380px;
+				margin: 0 auto;
+				/* background-color: skyblue; */
+			}
+			.gundontu{
+				position:relative;
+				width: 820px;
+				height: 380px;
+				left: 0px;
+				top: 0px;
+				margin-bottom: 20px;
+				/* background-color:red; */
+			}
+			.gundontu>div:nth-child(1){
+			position: absolute;
+			bottom: 0px;
+			text-align: center;
+			width: 820px;
+			height: 40px;
+			background-color:#e3e2e2;
+			font-size: 14px;
+			}
+			.gundontu>div:nth-child(1)>div{
+				
+				float: left;
+				width: 164px;
+				height: 40px;
+				padding-top: 15px;
+			}
+			.gundontu>div:nth-child(1)>div:hover{
+				background-color:#F7F6F6;
+				color: #CEA862;
+				border-bottom: 5px solid #CEA862;
+				
+			}
+			.gundontu>img{
+				position: absolute;
+				top: 0px;
+				left: 0;
+			}
+			.gundontu>div img{
+				position: absolute;
+				top: -340px;
+				left: 0px;
+				display: none;
+			}
+			#g1{
+				
+			}
+			#g2{
+				
+			}
+			#g3{
+				
+			}
+			#g4{
+				
+			}
+			#g5{
+				
+			}
+			#g1:hover a>img{
+				display: block;
+				z-index: 1;
+			}
+			#g2:hover a>img{
+				display: block;
+				z-index: 1;
+			}
+			#g3:hover a>img{
+				display: block;
+				z-index: 1;
+			}
+			#g4:hover a>img{
+				display: block;
+				z-index: 1;
+			}
+			#g5:hover a>img{
+				z-index: 1;
+				display: block;
+			}
+			#diergegundongtu1>div>:nth-child(2){
+				position: absolute;
+				top: 0px;
+				right: 0px;
+				text-align: center;
+				/* background-color: wheat; */
+				width: 496px;
+				height: 380px;
+				font-size: 18px;
+			}
+			#diergegundongtu1>div>:nth-child(2)>div{
+				float: left;
+				width: 98px;
+				height: 37px;
+				margin-top: 10px;
+				
+				
+			}
+			#diergegundongtu1>div>:nth-child(2)>div:hover{
+				color: #1EA6BA;
+				border-bottom:5px solid #1EA6BA;
+				
+			}
+			#diergegundongtu1>div>:nth-child(2)>div>ul{
+				width: 496px;
+				height: 300px;
+				background-color: white;
+				font: 12px/1.5 tahoma,'\5FAE\8F6F\96C5\9ED1',sans-serif;
+				
+				position: absolute;
+				top: 37px;
+				left: 0px;
+				/* display: none; */
+			}
+			#diergegundongtu1>div>:nth-child(2)>div>ul>li{
+				display: inline-block;
+				border-bottom:2px solid rgba(201,210,217,0.5);
+				margin-top: 20px;
+				padding-bottom: 10px;
+				height: 10px;
+				width: 100%;
+			}
+			#diergegundongtu1>div>:nth-child(2)>div>ul>:first-of-type{
+				height: 20px;
+				margin-top: 20px;
+				font-size: 17px;
+				color: #1EA6BA;
+			}
+			#diergegundongtu1>div>:nth-child(2)>div>ul>:first-of-type:hover{
+				color: #E3A41D;
+			}
+			#diergegundongtu1>div>:nth-child(2)>div>ul>li:hover{
+				color: orange;
+			}
+			#xiwen1{}
+			#xiwen2{}
+			#xiwen3{}
+			#xiwen4{}
+			#xiwen5{}
+			#xiwen1:hover ul{
+				display: block;
+			}
+			#xiwen2:hover ul{
+				display:block;
+			}
+			#xiwen3:hover ul{
+				display:block;
+			}
+			#xiwen4:hover ul{
+				display:block;
+			}
+			#xiwen5:hover ul{
+				display:block;
+			}
+			#diergegundongtu1>div>:nth-child(2)>a{
+				
+				width:  496px;
+				height: 30px;
+				background-color:#E3E2E2;
+				position: absolute;
+				bottom: 0px;
+				left: 0px;
+				padding-top: 10px;
+				color: #676767;
+			}
+			#diergegundongtu1>div>:nth-child(2)>a:hover{
+				color: orangered;
+			}
+			 #diergegundongtu2{/* 第三大行 */
+				position: relative;
+				height: 800px;
+				}
+			#diergegundongtu2>div{
+				
+				width: 1358px;
+				height: 100%;
+				margin: 0 auto;
+				/* background-color: #050505; */
+			}
+			#diergegundongtu2>div>:nth-child(1){
+				position: relative;
+				
+				height: 50%;
+				
+			}
+			#diergegundongtu2>div>:nth-child(1)>:nth-child(1){
+				width: 820px;
+				height: 335px;
+				float: left;
+				margin-top: 50px;
+				/* background-color: #F7F6F6; */
+				display: flex;
+				flex-flow: row;
+				
+			}
+			#diergegundongtu2>div>:nth-child(1)>:nth-child(1)>div{
+				flex-grow: 1;
+			
+				margin:0px 16px 0px 0px;
+				height: 20%;
+			}
+			
+			
+			.d2zuo1{
+				position: relative;
+				height: 278px;
+				width: 820px;
+				/* background-color: #008000; */
+				
+			}
+			.d2zuo1>div:nth-child(1){
+				
+				width: 820px;
+				height: 35px;
+				position: absolute;
+				top: 0px;
+				background-color: white;
+				left: 0px;
+				border-bottom:1px solid #676767;
+				
+			}
+			.d2zuo1>div span{
+				display: inline-block;
+				margin-top: 25px;
+				text-align: center;
+				
+				
+			}
+			.d2zuo1>div span>a{
+				color: #676767;
+				font-size: 16px;
+			}
+			.d2zuo1>div span>a:hover{
+				color: #3EB0C1;
+				border-bottom-color: #3EB0C1;
+			}
+			
+			
+			.d2zuo1>div:nth-child(2){
+				display: inline-block;
+				width:193px;
+				height:207px;
+				
+				/* background-color: #008000; */
+			}
+			.d2zuo1>div:nth-child(2)>a img{
+				width: 193px;
+				height: 237px;
+			}
+			.d2zuo1>div:nth-child(2)>a>:nth-child(2){/* 小兵周边报道 */
+				
+				width: 193px;
+				height: 70px;
+				color: #050505;
+				text-align: center;
+			}
+			.d2zuo1>div:nth-child(2)>a>:nth-child(2)>:nth-child(2){
+				margin-top: 20px;
+				font-size: 12px;
+			}
+			.d2zuo1>div:nth-child(2)>a>:nth-child(2)>:nth-child(1):hover{
+				color: #1EA6BA;
+			}
+			.d2zuo1>div:nth-child(3) img{
+				position: absolute;
+				top: 68px;
+				left: 205px;
+				height: 260px;
+				width: 193px;
+				
+				
+			}
+			.d2zuo1>div:nth-child(4)> img{
+				height: 260px;
+				width: 193px;
+				position: absolute;
+				top: 66px;
+				left: 50%;
+			}
+			.d2zuo1>div:nth-child(5)> img{/* 左边做完啦 */
+				height: 260px;
+				width: 193px;
+				position: absolute;
+				top: 68px;
+				left: 75%;
+			}
+			.d2zuo2{
+				margin-top: 50px;
+				position: absolute;
+				top: 0px;
+				right: 0px;
+				width: 469px;
+				height: 335px;
+				/* background-color: #008000; */
+			}
+			.d2zuo2>:nth-child(1){
+				position: absolute;
+				top: 0px;
+				right: 0px;
+				width: 469px;
+				height: 48%;
+				/* background-color: #1EA6BA; */
+				margin-bottom: 2%;
+			}
+			.d2zuo2>:nth-child(1)>:nth-child(1){
+				position: absolute;
+				top: 0px;
+				left: 0px;
+				width: 48%;
+				height: 100%;
+				margin-right: 4%;
+				/* background-image: url(../img/y1.png);
+				background-position: 0px 0px; */
+				z-index: 2;
+			}
+			.d2zuo2>:nth-child(1)>:nth-child(2)>:nth-child(1){
+				height: 49%;
+				margin-bottom: 2%;
+				position: absolute;
+				top: 0px;
+				right: -472px;
+			}
+			.d2zuo2>:nth-child(1)>:nth-child(2)>:nth-child(2){
+				height: 49%;
+				margin-bottom: 2%;
+				position: absolute;
+				right: -472px;
+				top: 90px;
+			}
+			.d2zuo2>:nth-child(1)>:nth-child(2){
+				position: absolute;
+				top: 0px;
+				left: 0px;
+				
+			}
+			.d2zuo2>:nth-child(2){
+				position: absolute;
+				bottom: 0px;
+				right: 0px;
+				width: 469px;
+				height: 44%;
+				background-color: #1EA6BA;
+				margin-top: 6%;
+			}
+			.d2zuo11{
+				width: 1358px;
+				height: 254px;
+				position:relative;
+				
+				display: flex;
+				flex-flow: row nowrap;
+				justify-content: space-between;
+				
+			}
+			.d2zuo11>div{
+				flex-grow: 1;
+				margin: 6px;
+				
+			}
+			.d2zuo11>:nth-child(3){
+				margin-left: 80px;
+			}
+			.d2zuo12{
+				margin-top: 10px;
+				
+			}
+			.d2zuo12>img{
+				width: 1375px;
+			}
+			.d2zuo21>img{
+				width: 1375px;
+			}
+			.d2zuo31>img{
+				width: 1375px;
+			}
+			.d2zuo41>img{
+				width: 1375px;
+			}
+			.guding1{
+				width: 70px;
+				height:364px;
+				position: fixed;
+				right: 0px;
+				bottom: 20%;
+				background-color:#FFFFFF;
+				display: flex;
+				flex-flow: column nowrap;
+				justify-content: space-around;
+				border-radius: 20px;
+				text-align: center;
+			}
+			.guding1>div:nth-child(1)>a>i{
+				display: inline-block;
+				width: 15px;
+				height: 18px;
+				
+				background-image: url("//ossweb-img.qq.com/images/lol/v3/comm-spr.png");
+				background-position: -246px -72px;
+				/* background-color: #1EA6BA; */
+			}
+			.guding1>div:nth-child(1)>a>i:hover{
+				background-position: -271px -72px;
+				margin-bottom: 5px;
+			}
+			
+			
+			.guding1>div:nth-child(2)>a>i{
+				display: inline-block;
+				
+				width: 18px;
+				height: 14px;
+				background-image: url("//ossweb-img.qq.com/images/lol/v3/comm-spr.png");
+				background-position: -338px -46px;
+				/* background-color: #1EA6BA; */
+			}
+			.guding1>div:nth-child(2)>a>i:hover{
+				background-position: -315px -46px;
+				margin-bottom: 5px;
+			}
+			
+			.guding1>div:nth-child(3)>a>i{
+				display: inline-block;
+				
+				width: 22px;
+				height: 20px;
+				background-image: url("//ossweb-img.qq.com/images/lol/v3/comm-spr.png");
+				background-position: -291px -13px;
+				/* background-color: #1EA6BA; */
+			}
+			.guding1>div:nth-child(3)>a>i:hover{
+				background-position: -193px -46px;
+				margin-bottom: 5px;
+			}
+			
+			
+			.guding1>div:nth-child(4)>a>i{
+				display: inline-block;
+				
+				width: 16px;
+				height: 18px;
+				background-image: url("//ossweb-img.qq.com/images/lol/v3/comm-spr.png");
+				background-position: -260px -96px;
+				/* background-color: #1EA6BA; */
+			}
+			.guding1>div:nth-child(4)>a>i:hover{
+				background-position: -239px -96px;
+				margin-bottom: 5px;
+			}
+			
+			.guding1>div:nth-child(5)>a>i{
+				display: inline-block;
+				
+				width: 22px;
+				height: 19px;
+				background-image: url("//ossweb-img.qq.com/images/lol/v3/comm-spr.png");
+				background-position: -220px -46px;
+				/* background-color: #1EA6BA; */
+			}
+			.guding1>div:nth-child(5)>a>i:hover{
+				background-position: -348px -12px;
+				margin-bottom: 5px;
+			}
+			
+			
+			.guding1>div:nth-child(6)>a>i{
+				display: inline-block;
+				
+				width: 33px;
+				height: 29px;
+				background-image: url("//ossweb-img.qq.com/images/lol/v3/comm-spr.png");
+				background-position: -193px -12px;
+				/* background-color: #1EA6BA; */
+			}
+			.guding1>div:nth-child(6)>a>i:hover{
+				
+				margin-bottom: 5px;
+				
+			}
+			.guding1>div>a{
+				color: #A3BCC0;
+			}
+			.guding1>div>a:hover{
+				color: #1EA6BA;
+			}

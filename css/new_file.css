@@ -1,0 +1,381 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;/* 去除小黑点 */
+}
+.clear:after{
+				content: "";
+				display: block;
+				clear: both;
+			}
+			.shubiao{
+				
+			}
+			
+			#tou1dababa0{/* 背景老祖宗 */
+				margin: 0;
+				padding: 0;
+				background-image: url(../img/0.jpg);
+				background-repeat: no-repeat;
+				/* background-size: cover; */ /* 固定缩放比例
+				/* padding-top:100% *//* 跟随div高度 */
+				height: 360px;
+				width: 1920px;
+				position: relative;
+				top: 0px;
+				margin: 0 auto;
+				padding-top: 1px ;
+				padding-left: 1px;
+			}
+			#tou1dababa{/* 大横条 */
+				margin: 0;
+				padding: 0;
+				margin-top: 26px;
+				/* background-color: rgba(28,26,25,0.8); */
+			}
+			#tou1dababa2{/* 居中的列表块儿 */
+				width: 1358px;
+				height: 78px;
+				margin: 0 auto;
+				
+				margin: 0px 281px auto;
+				position:relative;
+			}
+			#tou1dababa3{/* 英雄联盟图标 */
+				/* float: left; */
+				width: 132px;
+				height: 49;
+				margin-top: 14px;
+				/* background-color: brown; */
+				
+				
+			}
+			#tou1dababa4{/* 用来显现隐藏内容的列表啦 */
+				float: left;
+				width: 55%;
+				height: 78px;
+				
+				/* text-align: center; */
+				position: absolute;
+				top: 0px;
+				left: 150px;
+				
+				
+			}
+			#tou1dababa4 li{
+				width: 130px;
+				height: 78px;
+				float: left;
+				color: aliceblue;
+				list-style: none;/* 去除小黑点 */
+				
+				margin:0px 3px;
+				
+				
+				/* letter-spacing: ; */
+				
+			}
+			/* #tou1dababa4 li:nth-child(5){
+				position: absolute;
+				right: 0px;
+				top: 15px;
+			} */
+			#tou1dababa4 a{
+				text-decoration: none;
+				color: #F0F8FF;
+				width: 100%;
+				height: 100%;
+			}
+			#tou1dababa4  span:nth-child(1){
+				display: block;
+				
+				font-size: 18px;
+			}
+			#tou1dababa4 span:nth-child(2){
+				display: block;
+				font-size: 11px;
+			}
+			#tou1dababa5{/* 拉皮条的小儿子登陆匡匡 */
+				width: 244px;
+				height: 78px;
+				position: absolute;
+				top: 0px;
+				right: 0px;
+				color: #F0F8FF;
+				z-index: 1;
+			}
+			#tou1dababa5 a>img{
+				position: absolute;
+				top: -25px;
+				left: -6px;
+				width: 38px;
+				z-index: 1;
+			}
+			#tou1dababa5>div:nth-child(1){
+				position: absolute;
+				top: 50%;
+				margin-top: -18px;
+				left: 0px;
+				z-index: 1;
+			}
+			#tou1dababa5>div:nth-child(2){
+				position: absolute;
+				top: 50%;
+				margin-top: -33px;
+				left: 43px;
+				z-index: 1;
+			}
+			#tou1dababa5>:nth-child(3){
+				position: absolute;
+				top: -30px;
+				left: -30px;
+				background-color:rgba(6,6,5,0.8);
+				width: 280px;
+				height: 140px;
+				text-align: center;
+				padding-top: 108px;
+				display: none;
+				font-size: 12px;
+			}
+			#tou1dababa5>:nth-child(3)>a{
+				display: inline-block;
+				background-color: #050505;
+				padding-top: 10px;
+				color: #F7F6F6;
+				margin-top: 30px;
+				width: 280px;
+				height: 44px;
+			}
+			#tou1dababa5:hover div{
+				display: block;
+			}
+			#tou1dababa5>div:nth-child(2)>div>a{
+				width: 40px;
+				position: absolute;
+				top: 50%;
+				margin-top: -11.3px;
+				left: 100%;
+				margin-left: 5px;
+				text-decoration: none;
+				color: #FFF3D0;
+				
+			}
+			
+/* 头像图标 */#tou1dababa5>div>span{
+				display: block;
+				background-image: url(../img/topfoot-spr.png);
+				background-position: -304px -84px;
+				width: 48px;
+				height: 48px;
+				position: absolute;
+				top:-30px;
+				left: -10px;
+				z-index: 2;
+			}
+			
+					
+			#tou1dababa6{/* 渐变二爸爸 */
+				width: 100%;
+				height: 130px;
+				position: absolute;
+				top: 0px;
+				background: -webkit-linear-gradient(#050505,transparent); /* Safari 5.1 - 6.0 */
+				background: -o-linear-gradient(#050505,transparent); /* Opera 11.1 - 12.0 */
+				background: -moz-linear-gradient(#050505,transparent); /* Firefox 3.6 - 15 */
+				background: linear-gradient(#050505,transparent); /* 标准的语法（必须放在最后） */
+			}
+			#tou1dababa7{/* 查看详情 */
+				width: 160px;
+				height: 40px;
+				text-align: center;
+				line-height:43.8px;
+				position: absolute;
+				top: 75%;
+				margin-left: -200px;
+				left: 50%;
+				
+				
+				
+			}
+			#tou1dababa7>a{
+				text-decoration: none;
+				color:transparent;
+				position: absolute;
+				top: 15%;
+				left: 35%;
+				font-size: 14px;
+				font-family: "微软雅黑";
+			}
+			#tou1dababa7>a:hover{
+				/* text-decoration: none; */
+				
+				color: #E3A41D;
+			}
+			#tou1dababa7>a>div{
+				width: 160px;
+				height: 40px;/* 216,38 */
+				background-image: url(../img/topfoot-spr.png);
+				background-repeat: no-repeat;
+				background-position: -216px -38px;
+			}
+			#tou1dababa8{		/* 藏起来的大列表 */
+				position:relative;
+				top: -15px;
+				left:-433px;
+				width: 1920px;
+				height: 340px;
+				background-color: rgba(6,6,5,0.5);
+				padding: 1px;
+				display: none;
+				
+			}
+			#tou1dababa8>div{
+				width:1358px;
+				position: absolute;
+				margin-top:60px;
+				/* top 78px; */
+				left: 21%;
+				z-index: 1;
+				font-size: 12px;
+				
+			}
+			#tou1dababa8 li{
+				width: 130px;
+				/* height: 100%; */
+				height: 360px;
+				margin:0px 3px;
+				text-align: center;
+				float: left;
+			}
+			#tou1dababa8>div>ul>li>a{
+				width: 130px;
+				height: 20px;
+				color: #F0F8FF;
+				display: inline-block;
+				margin: 5px 0;
+			}
+			.ntubiao{/* 小图标2 */
+				display: inline-block;
+				width: 14px;
+				height: 14px;
+				background-image:url(../img/topfoot-spr.png);
+					background-repeat: no-repeat;
+					background-position: -357px -113px;
+				}
+			.htubiao{/* 小图标2 */
+				display: inline-block;
+				width: 14px;
+				height: 14px;
+				background-image:url(../img/topfoot-spr.png);
+					background-repeat: no-repeat;
+					background-position: -376px -113px;
+				}
+				#tou1dababa4:hover #tou1dababa8{
+					display: block;
+				}
+			#tou1dababa9{		/* 搜索图标哦 */
+				position: absolute;
+				top: 26px;
+				right: 32%;
+				z-index: 1;
+				
+				}
+		
+			#tou1dababa9>a>div{
+				display: inline-block;
+				width: 23px;
+				height: 23px;
+				background-image:url(../img/topfoot-spr.png);
+					background-repeat: no-repeat;
+					background-position: -381px -39px;
+			}
+			#tou1dababa10{/* <!-- 弹出app二维码框 --> */
+				position: absolute;
+				top: 26px;
+				right: 30%;
+				display: inline-block;
+				width: 17px;
+				height: 24px;
+				background-image:url(../img/topfoot-spr.png);
+				background-repeat: no-repeat;
+				background-position: -357px -84px;
+			
+				
+			}
+			
+			#tou1dababa10>div>div:nth-child(1){
+				position: absolute;
+				top: -10px;
+				left: 50%;
+				margin-left: -32px;
+				width: 0px;
+				height: 0px;
+				border-top:10px solid transparent;
+				border-left: 10px solid transparent;
+				border-right: 10px solid transparent;
+				border-bottom:10px solid rgba(6,6,5,0.5);
+				
+				
+			}
+			/* #tou1dababa10>div:nth-child(2){
+				position: absolute;
+				top: 100%;
+				margin-top: 10px;
+				margin-left: -106px;
+				width: 211px;
+				height: 178px;
+				background-color:rgba(6,6,5,0.8);
+				text-align: center;
+				
+				} */
+				#tou1dababa10>div>div>div>a{
+					position: absolute;
+					top: 100%;
+					margin-top: 10px;
+					margin-left: -106px;
+					width: 211px;
+					height: 178px;
+					background-color:rgba(6,6,5,0.8);
+					text-align: center;
+				}
+				#tou1dababa10>div>div>div>a>img{
+					margin-top: 20px;
+					
+				}
+				#tou1dababa10>div>div>div>p{
+					width: 170px;
+					position: absolute;
+					top: 160px;
+					left: -65px;
+					font-size: 12px;
+					color: #cdbe91;
+				}
+				#tou1dababa10>div>div>div>img{
+					width: 50px;
+					height: 50px;
+					/* z-index: 2; */
+					position: absolute;
+					top: 142px;
+					right: -110px;
+				}
+				#tou1dababa10>div{
+					
+					width: 300px;
+					height: 300px;
+					position: absolute;
+					top:100%;
+					left: -120px;
+					display: none;
+					z-index: 1;
+				}
+				#tou1dababa10:hover div{
+					display: block;
+				}
+			
+		
+
